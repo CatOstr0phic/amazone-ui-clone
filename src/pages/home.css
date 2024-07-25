@@ -1,0 +1,22 @@
+.home {
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 90%;
+  margin-top: 50px;
+}
+
+.home__container {
+
+}
+
+.home__row {
+  display: grid;
+  flex-wrap: wrap;
+  grid-gap: 15px;
+  align-content: center;
+  grid-template-columns: 
+  repeat(auto-fill, minmax(250px, 1fr));
+  justify-items: center;
+} 
